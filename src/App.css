@@ -2,6 +2,35 @@
   text-align: center;
 }
 
+#root {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  width: 33%
+}
+
+.card > * {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
